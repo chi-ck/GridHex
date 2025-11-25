@@ -1,1 +1,1 @@
-Unity六边形地图编辑器，支持规则瓦片
+Unity六边形地图编辑器，支持rule tile
