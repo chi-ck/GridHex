@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d43ea6f49dadd954292e59981607af4e, type: 3}
+  m_Name: Tile Group
+  m_EditorClassIdentifier: 
+  Tiles:
+  - _group: Tile Group
+    _tileID: -1818974487
+    Default: {fileID: 919132149155446097, guid: 9b5cdfc686cadfe43bf57bac386e0506, type: 3}
+    _name: Road
+    Rules:
+    - Object: {fileID: 919132149155446097, guid: 9b5cdfc686cadfe43bf57bac386e0506, type: 3}
+      Relations: 010000000200000002000000010000000200000002000000
+      AllowRotation: 1
+      _ruleID: -37748799
+    - Object: {fileID: 919132149155446097, guid: e985af85c63d5744eb9e8bcd0fe04171, type: 3}
+      Relations: 010000000200000001000000020000000200000002000000
+      AllowRotation: 1
+      _ruleID: -172897821
+    - Object: {fileID: 919132149155446097, guid: 908fc7d57c8db754eb50df6d3090d51c, type: 3}
+      Relations: 010000000100000002000000020000000200000002000000
+      AllowRotation: 1
+      _ruleID: 300011030
+    - Object: {fileID: 919132149155446097, guid: 26dca95165f388947a3d7bd27a842147, type: 3}
+      Relations: 010000000200000001000000020000000100000002000000
+      AllowRotation: 1
+      _ruleID: -1232967921
+    - Object: {fileID: 919132149155446097, guid: e37844304fdf9114b9e02819b4de3c2d, type: 3}
+      Relations: 010000000200000001000000010000000200000002000000
+      AllowRotation: 1
+      _ruleID: 272458617
+    - Object: {fileID: 919132149155446097, guid: 1097f8083db5d724eab288bf0b8dc948, type: 3}
+      Relations: 010000000200000002000000010000000100000002000000
+      AllowRotation: 1
+      _ruleID: -1488829772
+    - Object: {fileID: 919132149155446097, guid: 45b89f8dbf85ebd4eb17c423581a094c, type: 3}
+      Relations: 010000000100000002000000020000000200000001000000
+      AllowRotation: 1
+      _ruleID: -904288017
+    - Object: {fileID: 919132149155446097, guid: 7c55abbabc73b6e48bf1219a84aa268e, type: 3}
+      Relations: 010000000100000002000000010000000200000001000000
+      AllowRotation: 1
+      _ruleID: 1506124612
+    - Object: {fileID: 919132149155446097, guid: f14f83e7494e1af4f906c0bd5f66c962, type: 3}
+      Relations: 020000000100000001000000020000000100000001000000
+      AllowRotation: 1
+      _ruleID: 1347161201
+    - Object: {fileID: 919132149155446097, guid: ba70b22766c45684f8526a57d70a1b50, type: 3}
+      Relations: 010000000200000002000000010000000100000001000000
+      AllowRotation: 1
+      _ruleID: -390775003
+    - Object: {fileID: 919132149155446097, guid: d8911c2e964846949831a88be9036f09, type: 3}
+      Relations: 010000000100000001000000020000000100000001000000
+      AllowRotation: 1
+      _ruleID: 1308808374
+    - Object: {fileID: 919132149155446097, guid: f1fe04733de3091428cfbdb0c1db5d08, type: 3}
+      Relations: 010000000100000001000000010000000100000001000000
+      AllowRotation: 1
+      _ruleID: -183512832
+    - Object: {fileID: 919132149155446097, guid: 72cba6cccd75cbf4fa6fdc9405996fb4, type: 3}
+      Relations: 010000000200000002000000020000000200000002000000
+      AllowRotation: 1
+      _ruleID: -1422391872
+  - _group: Tile Group
+    _tileID: 2079678598
+    Default: {fileID: 919132149155446097, guid: 4d4278f6c6cb3d64c98dd6e8f374987c, type: 3}
+    _name: Water
+    Rules: []
